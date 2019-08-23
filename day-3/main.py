@@ -1,8 +1,5 @@
-#!/usr/bin/python3
 
 import numpy
-from operator import itemgetter
-
 
 def has_intersection(rect1, rect2):
     if rect1['x2'] < rect2['x1']:
